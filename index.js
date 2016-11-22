@@ -1,6 +1,10 @@
+// Discordie Necessary
 var Discordie = require("discordie");
 var Events = Discordie.Events;
 var client = new Discordie();
+
+// Loads the configuration file
+var ConfigFile = require("./config.json");
 
 client.connect(
 { 
