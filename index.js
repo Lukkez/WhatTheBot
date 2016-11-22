@@ -4,7 +4,7 @@ var client = new Discordie();
 
 client.connect(
 { 
-    token : ""
+    token : ConfigFile.token
 }
 );
 
